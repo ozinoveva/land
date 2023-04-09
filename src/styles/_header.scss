@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  background-color: $bg-color;
+
+  &__logo {
+    width: 200px;
+  }
+}
