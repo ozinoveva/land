@@ -1,10 +1,58 @@
 .header {
   display: flex;
-  gap: 20px;
-  padding: 30px;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px 46px;
   background-color: $bg-color;
+  max-width: 1360px;
 
   &__logo {
-    width: 200px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+
+    &_finance {
+      color: $logo-color-finanse;
+      margin: 0px;
+    }
+    &_ledger {
+      color: $logo-color-ledger;
+      margin: 0px;
+    }
+    &_block {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 10px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 42px;
+      margin: 0px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 38px;
+    margin: 0px;
+    align-items: center;
+  }
+
+  &__list_link {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $list-link-color;
+    text-decoration: none;
   }
 }

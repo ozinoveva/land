@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parcel Layout Template</title>
-    <link rel="stylesheet" href="./styles.scss" />
-  </head>
-  <body>
-    <header class="header">
-      <img
-        class="header__logo"
-        src="./images/icon-256x256.png"
-        alt="panda icon"
-      />
-      <p>hello world</p>
-    </header>
-    <script type="module" src="./index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parcel Layout Template</title>
+  <link rel="stylesheet" href="./styles.scss" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo_block">
+      <img class="header__logo" src="./images/Vector.svg" alt="land icon" width=39.31 height=30.63 />
+      <p class="header__logo_finance">Finance</p>
+      <p class="header__logo_ledger">Ledger</p>
+    </div>
+    <ul class="header__list">
+      <li><a href="#home" class="header__list_link">Home</a></li>
+      <li><a href="#about" class="header__list_link">About</a></li>
+      <li><a href="#cases" class="header__list_link">Cases</a></li>
+      <li> <a href="#blog" class="header__list_link">Blog</a></li>
+      <li><a href="#contact" class="header__list_link">Contact</a></li>
+    </ul>
+  </header>
+  <script type="module" src="./index.js"></script>
+</body>
+
 </html>
